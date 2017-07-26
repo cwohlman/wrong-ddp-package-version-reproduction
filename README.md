@@ -17,3 +17,8 @@ I20170726-09:56:56.213(-5)?     at new Session (packages/ddp-server/livedata_ser
 I20170726-09:56:56.213(-5)?     at [object Object]._.extend._handleConnect (packages/ddp-server/livedata_server.js:1463:29)
 I20170726-09:56:56.214(-5)?     at packages/ddp-server/livedata_server.js:1379:18
 ```
+
+Workaround (see workaround branch):
+Update .meteor/version with corrected versions:
+ddp-common@1.2.8
+meteor@1.6.1
